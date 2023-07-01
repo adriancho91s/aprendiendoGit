@@ -1,0 +1,26 @@
+{
+  "name": "app-blog",
+  "version": "1.0.0",
+  "description": "This app is a blog that allows to the users see posts and write their posts",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aprendiendoGit"
+  },
+  "keywords": [
+    "Blog",
+    "Express.js"
+  ],
+  "author": "Adrián Fernando Gaitán Londoño",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
